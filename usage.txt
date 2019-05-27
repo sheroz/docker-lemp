@@ -1,0 +1,15 @@
+Usage sample on Windows with dockerized app (Docker NAT IP = 10.0.75.1):
+on app host:
+$ sudo su
+$ echo "10.0.75.1 plugin.com" >> /etc/hosts
+$ exit
+
+App Domain Manager:
+domain url: plugin.com:8000
+
+Wordpress settings:
+Settings->General->Site Address (URL) = http://10.0.75.1:8000
+Settings->General->WordPress Address (URL) = http://10.0.75.1:8000
+
+webapp: localhost:8000  
+phpMyAdmin : localhost:8080
