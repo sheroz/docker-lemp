@@ -8,7 +8,9 @@ PROJECT_ROOT=./webapp
 DB_ROOT_PASSWORD=qwerty
 
 DB_NAME=webapp
+
 DB_USERNAME=webapp
+
 DB_PASSWORD=webapp
 
 # Web Access
